@@ -32,22 +32,22 @@
 
 	<distributionManagement>
 		 <snapshotRepository>
-		    <id>nexusRepo</id>
-		    <url>http://13.233.230.166:8081/repository/maven-snapshots/</url>
+		    <id>nexusRepo</id>
+		    <url>http://13.233.230.166:8081/repository/maven-snapshots/</url>
 		 </snapshotRepository>
 
 		<repository>
-		    <id>nexusRepo</id>
-		    <url>http://13.233.230.166:8081/repository/maven-releases/</url>
+		    <id>nexusRepo</id>
+		    <url>http://13.233.230.166:8081/repository/maven-releases/</url>
 		</repository>
-  	</distributionManagement>
+	</distributionManagement>
 
 	<pluginRepositories>
-	    <pluginRepository>
+	    <pluginRepository>
 			<id>maven1</id>
 			<name>Maven.org</name>
 			<url>http://repo1.maven.org/maven2</url>
-	    </pluginRepository>
+	    </pluginRepository>
 	</pluginRepositories>
 
     <build>
